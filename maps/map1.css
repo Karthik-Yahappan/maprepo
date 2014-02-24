@@ -1,0 +1,61 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+body {
+margin: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+
+.pull-right {
+  float: right;
+}
+
+.global-header {
+  width: 100%;
+  padding: 38px 0px 0px 0px;  
+  position: absolute;
+  top: 0px;
+  z-index: 5;
+  color: #000000;
+  background-color: rgba(256, 256, 256, 0.85);
+  border-bottom: 1px solid #000000;
+}
+.global-header p {
+  line-height: 10px;
+}
+.global-header a {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.global-header .actions a {
+  padding: 5px 20px;
+  font-size: 15px;
+  }  
+
+.global-header .uber-logo {
+  position: relative;
+  top: -9px;
+  font-size: 20px;
+}
+
+
+  .center {
+  text-align: center;
+}

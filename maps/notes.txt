@@ -1,0 +1,96 @@
+We need to get the latitude and longitude from a known address to position the map or place a marker in the map.
+Use google maps geocoding service fro
+
+https://developers.google.com/maps/documentation/javascript/geocoding
+http://code.google.com/apis/maps/documentation/geocoding/index.html
+http://stackoverflow.com/questions/6762213/how-to-get-dynamically-latitude-and-longitude-on-google-maps
+
+
+There is a free version and a business version
+
+[
+  {
+    "featureType": "landscape",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#FFFFFF" }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#dddddd" }
+    ]
+  },{
+    "featureType": "road.highway",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "color": "#d3d3d3" }
+    ]
+  },{
+  }
+]
+
+
+
+
+[
+  {
+    "featureType": "landscape",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#fafafa" }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#dddddd" }
+    ]
+  },{
+    "featureType": "road.highway",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "color": "#d3d3d3" }
+    ]
+  },{
+  }
+]
+
+
+
+
+
+
+-----------------------
+
+[
+  {
+    "featureType": "landscape",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#f4f4f4" }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#e1e1e1" }
+    ]
+  },{
+    "featureType": "road.highway",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "color": "#d3d3d3" }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      { "color": "#aaaaaa" }
+    ]
+  }
+]
