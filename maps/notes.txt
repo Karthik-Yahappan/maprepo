@@ -5,6 +5,17 @@ https://developers.google.com/maps/documentation/javascript/geocoding
 http://code.google.com/apis/maps/documentation/geocoding/index.html
 http://stackoverflow.com/questions/6762213/how-to-get-dynamically-latitude-and-longitude-on-google-maps
 
+to get the new lat and lang after dragging the marker
+
+google.maps.event.addListener(
+    marker,
+    'drag',
+    function() {
+        document.getElementById('lat').value = marker.position.lat();
+        document.getElementById('lng').value = marker.position.lng();
+    }
+);
+
 
 There is a free version and a business version
 
